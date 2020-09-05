@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="library.css" type="text/css">
+    </head>
+<body>
+    <script type="text/javascript" src="book constructor.js" defer></script>
+    <script src="lodash.js"></script>
+<div id="enterData">
+    <h3>Enter a new book information</h3>
+<form id="acceptData" action="#">
+    <label  >Title</label> <br>
+    <input type="text" name='title'   > <br>
+
+    <label >Author</label> <br>
+    <input type="text" name="author" > <br>
+
+    <label >Pages</label> <br>
+    <input type="text" name="pages" > <br>
+
+    <label >Read Status</label> <br>
+
+    <input type="radio" id="read" name="selectStatus" >
+    <label >Read</label>
+    <input type="radio" id="notRead" name="selectStatus">
+    <label > Not Read</label>
+
+
+
+</form>
+<button id="submit" onclick="createBook()"> submit</button>
+<!-- <button id="list" onclick="listBooks()">List Library</button> -->
+
+</div>
+
+
+<div id="display">
+
+</div>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+
+<!--adds database functionality and authentication -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+
+
+</body>
+
+
+</html>

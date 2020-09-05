@@ -1,0 +1,30 @@
+#display{
+    float: right;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+}
+
+#enterData{
+    float: left;
+    width: 400px;
+   
+}
+
+.cards{
+margin: 5px;
+border: 5px solid darkolivegreen;
+background-color: dimgray;
+width: 200px;
+height: 250px;
+
+}
+
+p{
+color: white;
+}
+
